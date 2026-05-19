@@ -252,7 +252,7 @@ Upsampling adds interpolated points. It does not create new measured geometry.
 
 ## Step 10: Alpha-shape mesh creation and volume calculation
 
-<img src="reports/figures/09_alpha_shape_mesh.jpg" alt="Alpha-shape mesh" width="300" height="300">
+<img src="reports/figures/09_alpha_shape_mesh.png" alt="Alpha-shape mesh" width="300" height="300">
 
 Alpha-shape reconstruction was used to create candidate meshes.
 
