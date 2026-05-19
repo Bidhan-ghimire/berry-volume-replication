@@ -1,0 +1,8 @@
+path: "data/processed/red_grapes_v1"
+
+train: train/images
+val: train/images
+test: train/images
+
+names:
+  0: grape_cluster
