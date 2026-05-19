@@ -252,7 +252,7 @@ Upsampling adds interpolated points. It does not create new measured geometry.
 
 ## Step 10: Alpha-shape mesh creation and volume calculation
 
-<img src="reports/figures/09_alpha_shape_mesh.jpg" alt="Alpha-shape mesh" width="300" height="300">
+<img src="reports/figures/09_alpha_shape_mesh.png" alt="Alpha-shape mesh" width="300" height="300">
 
 Alpha-shape reconstruction was used to create candidate meshes.
 
@@ -340,16 +340,10 @@ The measured grape volume was:
 
 ## Summary
 
-The cluster-volume workflow was completed successfully. The repo includes YOLO11 segmentation, RGB cluster masking, camera calibration, sparse SfM reconstruction, DBSCAN cleaning, alpha-shape meshing, scale conversion, and water-displacement comparison.
+The cluster-volume workflow was completed successfully. This repo includes YOLO11 segmentation, RGB cluster masking, camera calibration, COLMAP SfM reconstruction, DBSCAN cleaning, alpha-shape meshing, scale conversion, and water-displacement comparison.
 
-## Limitations
+## Limitations and next steps
 
-This is a method replication, not an exact reproduction of the paper. The main sources of error are scale measurement, mesh quality, segmentation quality, and the simple household water-displacement setup.
+This is a method replication, not an exact reproduction of the paper. The main sources of error are the scale measurement, segmentation quality, mesh quality, and the simple household water-displacement setup.
 
-## Next steps
-
-The next step is to repeat the workflow on more grape clusters, use a clearer scale object, and report average error across multiple samples.
-
-## Short conclusion
-
-This repo shows that grape cluster volume can be estimated from RGB images using YOLO11 segmentation, COLMAP SfM reconstruction, DBSCAN cleaning, alpha-shape meshing, and scale-based volume conversion.
+Future work should repeat the workflow on more grape clusters, use a clearer scale object, and report average error across multiple samples.
