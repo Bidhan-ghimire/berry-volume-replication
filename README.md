@@ -352,7 +352,7 @@ Future work should repeat the workflow on more grape clusters, use a clearer sca
 
 If you use this repository, please cite it as:
 
-Ghimire, B. (2026). *Public-data replication of smartphone-based 3D grape canopy and cluster volume estimation* [Computer software]. GitHub. https://github.com/YOUR_USERNAME/grape-volume-replication
+Ghimire, B. (2026). *Public-data replication of smartphone-based 3D grape canopy and cluster volume estimation* [Computer software]. GitHub. https://github.com/Bidhan-ghimire/berry-volume-replication
 
 This repository is based on the method described in:
 
