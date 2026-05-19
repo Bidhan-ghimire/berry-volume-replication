@@ -347,3 +347,13 @@ The cluster-volume workflow was completed successfully. This repo includes YOLO1
 This is a method replication, not an exact reproduction of the paper. The main sources of error are the scale measurement, segmentation quality, mesh quality, and the simple household water-displacement setup.
 
 Future work should repeat the workflow on more grape clusters, use a clearer scale object, and report average error across multiple samples.
+
+## Citation
+
+If you use this repository, please cite it as:
+
+Ghimire, B. (2026). *Public-data replication of smartphone-based 3D grape canopy and cluster volume estimation* [Computer software]. GitHub. https://github.com/YOUR_USERNAME/grape-volume-replication
+
+This repository is based on the method described in:
+
+Upadhyaya, P., Paudel, A., & Karkee, M. (2025). Smartphone-based 3D imaging for canopy and berry cluster volume estimation in wine grapes. *Smart Agricultural Technology, 12*, 101592. https://doi.org/10.1016/j.atech.2025.101592
